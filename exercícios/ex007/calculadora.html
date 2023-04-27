@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        .tela {
+            text-align: center;
+
+            height: 120px;
+            width: 500px;
+
+            background-color: rgba(51, 61, 61, 0.63);
+
+            border-radius: 15px;
+            margin-bottom: 8px;
+        }
+
+        .corpo {
+            background-position: center center;
+
+            margin: auto;
+            margin-top: auto;
+
+            padding: 20px;
+
+            border-radius: 15px;
+
+            background-color: rgb(20, 114, 20);
+            height: 600px;
+            width: 500px;
+        }
+
+        .button {
+            border-radius: 50%;
+            height: 65px;
+            width: 65px;
+        }
+
+        div>.operators {
+            border-radius: 50%;
+            height: 65px;
+            width: 65px;
+        }
+
+        .button>.numbers {
+            border-radius: 50%;
+            height: 65px;
+            width: 65px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="corpo">
+
+        <div class="tela"></div>
+
+        <button class="button" id="clear">C</button>
+        <button class="button" id="bckspace">&#8592;</button>
+
+        <div class="button">
+            <button class="operators" id="porcento">%</button>
+            <button class="operators" id="multipicacao">*</button>
+            <button class="operators" id="mais">+</button>
+            <button class="operators" id="menos">-</button>
+            <button class="operators" id="igual">=</button>
+        </div>
+
+        <div class="button">
+            <button class="numbers" id="9">9</button>
+            <button class="numbers" id="8">8</button>
+            <button class="numbers" id="7">7</button>
+            <button class="numbers" id="6">6</button>
+            <button class="numbers" id="5">5</button>
+            <button class="numbers" id="4">4</button>
+            <button class="numbers" id="3">3</button>
+            <button class="numbers" id="2">2</button>
+            <button class="numbers" id="1">1</button>
+            <button class="numbers" id="0">0</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
